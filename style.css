@@ -1,0 +1,23 @@
+@import url("fonts.css");
+
+body {
+    font-family: 'Roboto';
+}
+
+    
+
+.kris {
+    width:240px;
+    height:40px;
+    background-color: thistle;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-flex;
+
+}
+
+.test2,  {
+    margin-right: 24px;
+    justify-content: center;
+    vertical-align: middle;
+}

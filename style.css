@@ -3,6 +3,10 @@
 body {
     font-family: 'Roboto';
 }
+span, h3 {
+    font-size: 14px;
+}
+
 
 .part1 {
     height: 56px;
@@ -29,6 +33,7 @@ body {
     padding-left: 27px;
     display: flex;
     flex-direction: row;
+   
 }
 
 .part3,
@@ -39,6 +44,7 @@ body {
     padding-left: 27px;
     display: flex;
     flex-direction: row;
+  
 }
 
 .part7,
@@ -50,6 +56,7 @@ body {
     padding-left: 27px;
     display: flex;
     flex-direction: row;
+  
 }
 
 .part2-1,
@@ -119,8 +126,30 @@ width:4px;
 height:4px;
 background-color:#0572EF;
 border-radius: 50%;
-margin-left: 80px;
 position: absolute;
 bottom: 50%;
-  right: 0;
+  right: 25px;
+}
+
+.title {
+    display: block;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    
+}
+
+.end {
+    margin-left: 8px;
+}
+
+.finaltext {
+    width:240;
+    height:71;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+
 }

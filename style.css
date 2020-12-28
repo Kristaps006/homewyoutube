@@ -3,9 +3,17 @@
 body {
     font-family: 'Roboto';
 }
-span, h3 {
+span {
     font-size: 14px;
+    color: #282828;
 }
+
+h3 {
+    font-size: 14px;
+    color: #909090;
+}
+
+
 
 
 .part1 {
@@ -36,10 +44,7 @@ span, h3 {
    
 }
 
-.part3,
-.part4,
-.part5,
-.part6 {
+.part3 {
     margin-top: 22px;
     padding-left: 27px;
     display: flex;
@@ -47,47 +52,15 @@ span, h3 {
   
 }
 
-.part7,
-.part8,
-.part10,
-.part11,
-.part12 {
-    margin-top: 22px;
-    padding-left: 27px;
-    display: flex;
-    flex-direction: row;
-  
-}
-
-.part2-1,
-.part3-1,
-.part4-1 {
+.part3-1
+ {
     margin-right: 28px;
     display: inline-block;
     position: relative;
     width: 24px;
     height: 24px; }
 
-.part5-1,
-.part6-1{
-    margin-right: 28px;
-    display: inline-block;
-    position: relative;
-    width: 24px;
-    height: 24px
-}
 
-
-.part7-1,
-.part8-1,
-.part10-1,
-.part11-1 {
-    margin-right: 28px;
-    display: inline-block;
-    position: relative;
-    width: 24px;
-    height: 24px
-}
 
 hr {
     display: block;
@@ -97,11 +70,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-
-
-
-
 
 .part12-1{
     background-color:#0572EF;
@@ -118,18 +86,22 @@ hr {
     display:flex;
     flex-direction: row;
     position: relative;
+    margin-top: 22px;
+    padding-left: 27px;
+    display: flex;
+    flex-direction: row;
 
 }
 
-.part12-2 {
-width:4px;
-height:4px;
-background-color:#0572EF;
-border-radius: 50%;
-position: absolute;
-bottom: 50%;
-  right: 25px;
-}
+ .part12-2 {
+    width:4px;
+    height:4px;
+    background-color:#0572EF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    right: 25px;
+    }
 
 .title {
     display: block;
@@ -142,6 +114,8 @@ bottom: 50%;
 
 .end {
     margin-left: 8px;
+    font-size: 12px;
+    color:#909090; 
 }
 
 .finaltext {
@@ -152,4 +126,14 @@ bottom: 50%;
     padding-bottom: 0px;
     padding-left: 24px;
 
+}
+
+.copyright {
+    padding: 16px 24px;
+    display:block;
+}
+.coptext {
+    display: inline;
+    font-size: 12px;
+    color: #E5E5E5;
 }
